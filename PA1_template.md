@@ -5,12 +5,13 @@ by Sherry(Oct,2015)
 
 #Introduction
 
-This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day.Specifically this assignment use R markdown to write a report that answers the questions detailed in the sections below. In the process, the single R markdown document will be processed by knitr and be transformed into an HTML file.
+This assignment makes use of data from a personalPA1_template activity monitoring device. This device collects data at 5 minute intervals through out the day.Specifically this assignment use R markdown to write a report that answers the questions detailed in the sections below. In the process, the single R markdown document will be processed by knitr and be transformed into an HTML file.
 
 #Prepare the R environment
 
 
 ```r
+library(ggplot2)
 library(knitr)
 opts_chunk$set(echo=TRUE,results='hold')
 library(Hmisc)
@@ -21,17 +22,12 @@ library(Hmisc)
 ## Loading required package: lattice
 ## Loading required package: survival
 ## Loading required package: Formula
-## Loading required package: ggplot2
 ## 
 ## Attaching package: 'Hmisc'
 ## 
 ## The following objects are masked from 'package:base':
 ## 
 ##     format.pval, round.POSIXt, trunc.POSIXt, units
-```
-
-```r
-library(ggplot2)
 ```
 
 #Loading and preprocessing the data
