@@ -10,10 +10,10 @@ This assignment makes use of data from a personalPA1_template activity monitorin
 #Prepare the R environment
 
 ```{r}
+library(ggplot2)
 library(knitr)
 opts_chunk$set(echo=TRUE,results='hold')
 library(Hmisc)
-library(ggplot2)
 ```
 
 #Loading and preprocessing the data
